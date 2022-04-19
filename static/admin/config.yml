@@ -41,3 +41,7 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
+          - { label: "Page_Header_bg", name: "page_header_bg", widget: "image" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Bg_image", name: "bg_image", widget: "image" }
+          - { label: "Content", name: "content", widget: "markdown" }
