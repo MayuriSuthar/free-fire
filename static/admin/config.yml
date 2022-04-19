@@ -61,7 +61,7 @@ collections:
           - { label: "Draft", name: "draft", widget: "boolean" }
           - { label: "Content", name: "content", widget: "markdown" }
 
-  - name: "blog"
+  - name: "pages"
     label: "blog"
     files:
       - file: "content/englis/blog/"
