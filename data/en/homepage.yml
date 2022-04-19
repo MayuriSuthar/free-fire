@@ -1,0 +1,289 @@
+############################ Slider ##########################
+slider:
+  enable : true
+  slider_item:
+    ################# Slider item loop
+    - title : "SHREE B.D.S.V COLLEGE"
+      subtitle : "you'have come to the right place! All tools you need for success."
+      bg_image : "images/slider/bg1.jpg"
+      image : ""
+      image_position : "false"
+      # slider navigator
+      navigator:
+        label : "Invent"
+        icon : "fa-bicycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+
+      # slider buttons
+      buttons:  
+        # button loop
+        - label : "Learn More"
+          style : "solid"
+          link : "/about"
+
+    ################# Slider item loop
+    - title : "B.D.S.V. ARTS Collage!"
+      subtitle : "To develop value base quality in the life such as good Work.."
+      bg_image : "images/slider/bg1.jpg"
+      image : "images/slider/bg2.jpg"
+      image_position : "laft"
+      # slider navigator
+      navigator:
+        label : "suject"
+        icon : "fa-bicycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+
+      # slider buttons
+      buttons:  
+        # button loop
+        - label : "Learn More"
+          style : "solid"
+          link : "/about"
+
+    ############### Slider item loop
+    - title : "B.D.S.V. SCIENCE Collage! "
+      subtitle : "The College offers B.Sc. Honours in Botany, Chemistry, Geology, Mathematics, Physics, Statistics and Zoology."
+      bg_image : "images/slider/bg2.jpg"
+      image : "images/slider/bg-thumb1.png"
+      image_position : "left"
+      # slider navigator
+      navigator:
+        label : "Dream"
+        icon : "fa-hotel" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Take a Tour"
+          style : "solid"
+          link : "/blog"
+
+    ############### Slider item loop
+    - title : "B.D.S.V. COMMERCE collage "
+      subtitle : "Accountancy, Business Studies, Economics, and Mathematics are the major subjects which come under the Commerce stream."
+      bg_image : "images/slider/bg2.jpg"
+      image : "images/slider/bg-thumb2.png"
+      image_position : "right"
+      # slider navigator
+      navigator:
+        label : "Tech"
+        icon : "fa-android" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+
+      # slider buttons
+      buttons:
+        # button loop
+        - label : "Start Now"
+          style : "white"
+          link : "/contact"
+          
+        # button loop
+        - label : "Learn More"
+          style : "solid"
+          link : "/about"
+
+
+############################### Service ####################################
+service:
+  enable : true
+  # service content comes from "data/*/service.yml" file
+
+  
+############################### portfolio ##################################
+#portfolio:
+  enable : true
+  title : "Our Awesome Work"
+  subtitle : "We Making Difference To Great Things Possible"
+  title_icon : "fa-suitcase"
+  # portfolio items comes from "content/*/portfolio" folder
+ 
+# ############################### funfact ##################################
+# funfact:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "Clients"
+      icon : "fa-user" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "1200"
+      
+    # funfact item loop
+    - name : "Item Sold"
+      icon : "fa-institution" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "1277"
+      
+    # funfact item loop
+    - name : "Projects"
+      icon : "fa-suitcase" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "857"
+      
+    # funfact item loop
+    - name : "Awwards"
+      icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "78"
+
+############################### feature ##################################
+feature:
+  enable : true
+  feature_item:
+    # feature item loop
+    - name : "Clean &amp; Modern Design"
+      icon : "fa-heart-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Useful Shortcodes"
+      icon : "fa-codepen" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Parallax Section"
+      icon : "fa-film" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Multipurpose Concept"
+      icon : "fa-newspaper-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Responsive Layout"
+      icon : "fa-desktop" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Light wight Performance"
+      icon : "fa-pagelines" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Free Lifetime Updates"
+      icon : "fa-recycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "Endless Possibilites"
+      icon : "fa-diamond" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      
+    # feature item loop
+    - name : "24/7 Live Support"
+      icon : "fa-whatsapp" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+
+############################### about ##################################
+about:
+  enable : true
+  title : ""
+  subtitle : "WHY Subject"
+  bg_image : "images/benchmark/Subject-12.jpg"
+  content : "A College of Arts and Sciences or School of Arts and Sciences is most commonly an individual institution or a unit within a university that focuses on instruction of the liberal arts and pure sciences, although they frequently include programs and faculty in fine arts, social sciences, and other disciplines."
+  about_item:
+    # about item loop
+    - name : "Arts"
+      icon : "fa-bicycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "art, also called (to distinguish it from other art forms) visual art, a visual object or experience consciously created through an expression of skill or imagination."
+      
+    # about item loop
+    - name : "Science"
+      icon : "fa-diamond" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "As such, within science a careful differentiation is made between scientific consensus, theories, evidence, findings, hypotheses and observations."
+      
+    # about item loop
+    - name : "Commerce"
+      icon : "fa-street-view" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Commerce is the conduct of trade among economic agents."
+
+############################### team ####################################
+team:
+  enable : true
+  # team content comes from "data/*/team.yml" file
+
+############################ Call to action #############################
+call_to_action:
+  enable : true
+  title : "Are You Ready to Buy This Template!"
+  subtitle : "Just Click Button and Use Your Own"
+  bg_image : "images/parallax/parallax1.jpg"
+  buttons:
+    # button loop
+    - label : "Purchase Now"
+      style : "white"
+      link : "/contact"
+      
+    # button loop
+    - label : "Get In Touch"
+      style : "solid"
+      link : "/service"
+
+
+############################### pricing ####################################
+pricing:
+  enable : true
+  # pricing content comes from "data/*/pricing.yml" file
+
+
+############################### testimonial ####################################
+testimonial:
+  enable : true
+  bg_image : ""
+  testimonial_item:
+   
+    # testimonial item loop
+    - name : "Aditya Rajwadi"
+      image : "images/team/testimonial3.jpg"
+      designation : "Director @ Rajwadi Tea"
+      content : "Flexibility is the one word I would use to describe Atcults – their ability to be diverse in core competencies and stitch them together appropriately. Atcults is an intelligent partner; someone I can count on to create new value, and add new dimensions to our products. The leadership at Atcults took a keen interest in learning about our business and what makes us different and we see that in our interactions with them."
+   
+    # testimonial item loop
+    - name : "Dushyant Upadhyay"
+      image : "images/team/testimonial2.jpg"
+      designation : "Technical Lead @ Rapidradio Solutions Pvt.Ltd"
+      content : "Atcults' in-depth knowledge of existing as well as latest technologies and customer centric approach has made them stand out from other software companies. After minutely listening our requirements, they apply their mind in designing the software/solution in such a way that we always get a wonderful user experience. Once installed, the software designed by them requires almost nil maintenance."      
+
+    # testimonial item loop
+    - name : "Sunil Modi"
+      image : "images/team/testimonial1.jpg"
+      designation : "Founder @ Sanelite Solutions Pvt.Ltd."
+      content : "Its happened to me & if you’re reading this, chances are it’s happened to you, too...!!! You go above and beyond for your owned brand... 'Go with Atcults...!!!'And when you do… You will feel the difference 360...!!! If that sounds familiar, don’t worry—you’re not alone."
+
+
+############################ Clients logo slider ##########################
+clients_logo_slider:
+  enable : true
+  slider_item:
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client1.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client2.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client3.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client4.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client5.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client6.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client7.png"
+      link : "#"
+      
+    # slider item loop
+    - name : "client"
+      logo : "images/clients/client8.png"
+      link : "#"
