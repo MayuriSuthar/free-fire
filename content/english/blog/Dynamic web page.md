@@ -1,8 +1,8 @@
 ---
 title: Dynamic web page
 date: 2022-04-19T09:19:52.519Z
-page_header_bg: images/footer-bg.jpg
-image: images/image-block-bg.jpg
+page_header_bg: images/banner/banner-1.jpg
+image: images/blog/blog-3.jpg
 description: this is testing.
 author: Nidhi Patel
 categories: Devlopment
