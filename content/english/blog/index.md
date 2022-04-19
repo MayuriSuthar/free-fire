@@ -7,7 +7,7 @@ description: this is testing.
 author: Nidhi Patel
 categories: Devlopment
 tags: dynamic
-draft: true
+draft: false
 content: >-
   Microsoft sells Dynamics 365 in 4 different plans:
 
