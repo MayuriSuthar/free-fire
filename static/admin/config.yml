@@ -37,7 +37,7 @@ collections:
             }
       - file: "content/english/about/index.md"
         label: "About"
-        name: "about us"
+        name: "about"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "text" }
@@ -45,3 +45,19 @@ collections:
           - { label: "Description", name: "description", widget: "text" }
           - { label: "Bg_image", name: "bg_image", widget: "image" }
           - { label: "Content", name: "content", widget: "markdown" }
+
+      - file: "content/english/blog/index.md"
+        label: "Blog"
+        name: "blog"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date", name: "date", widget: "date" }
+          - { label: "Page_header_bg", name: "page_header_bg", widget: "image" }
+          - { label: "image", name: "image", widget: "image" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Author", name: "author", widget: "text" }
+          - { label: "Categories", name: "categories", widget: "text" }
+          - { label: "tags", name: "tags", widget: "text" }
+          - { label: "Draft", name: "draft", widget: "boolean" }
+          - { label: "Content", name: "content", widget: "markdown" }
+
