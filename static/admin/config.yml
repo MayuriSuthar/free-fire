@@ -16,6 +16,19 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+    - name: "blog"
+      label: "Blog"
+      folder: "content/english/blog"
+      path: "{{slug}}/index"
+      media_folder: ""
+      public_folder: ""
+      create: true
+      fields: 
+         - { label: "Titel", name: "titel", widget: "string"}
+         - { label: "Date", name: "date", widget: "date"}
+         - { label: "Image", name: "image", widget: "image"}
+         
   - name: "pages"
     label: "Pages"
     files:
@@ -64,7 +77,7 @@ collections:
   - name: "blog"
     label: "blog"
     files:
-      - file: "content/englis/blog/"
+      - file: "content/english/blog/"
         label: "Blog"
         name: "blog"
         fields:
