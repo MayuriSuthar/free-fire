@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "static/images/blog" # Folder where user uploaded files should go
+media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/post
@@ -21,8 +21,8 @@ collections:
       label: "Blog"
       folder: "content/english/blog"
       path: "{{slug}}/index"
-      media_folder: ""
-      public_folder: ""
+      media_folder: "static/images/blog"
+      public_folder: "editorial_workflow"
       create: true
       fields: 
          - { label: "Titel", name: "titel", widget: "string"}
